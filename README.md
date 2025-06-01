@@ -2,13 +2,13 @@
 
 ```sh
 php artisan make:command ModularCrudCommand
-```
+
 ```sh
 ``php artisan make:command ModularCrudRollbackCommand
-```
+
 ```sh
 ``php artisan modular:crud Post
-```
+
 ```sh
 ``php artisan modular:crud-rollback Post
 ```
