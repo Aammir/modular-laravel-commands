@@ -44,9 +44,7 @@ class ModularCrudRollbackCommand extends Command
             if (Str::contains($file->getFilename(), Str::snake($name))) {
                 File::delete($file->getPathname());
                 $this->info("Deleted migration: {$file->getFilename()}");
-            }else{
-                $this->warn("Migration file not found for: {$file->getFilename()}");
-            }
+            } 
         }
 
         // 4. Remove views in resources/views/{plural_snake} 
