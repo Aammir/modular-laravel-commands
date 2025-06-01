@@ -2,16 +2,20 @@
 
 ```sh
 php artisan make:command ModularCrudCommand
+```
 
 ```sh
 ``php artisan make:command ModularCrudRollbackCommand
+```
 
 ```sh
 ``php artisan modular:crud Post
+```
 
 ```sh
 ``php artisan modular:crud-rollback Post
 ```
+
 ## What Does This CRUD Generator Create?
 
 This package provides Artisan commands to quickly scaffold and remove CRUD (Create, Read, Update, Delete) functionality for any model in your Laravel application.
