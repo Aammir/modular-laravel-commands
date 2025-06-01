@@ -5,15 +5,15 @@ php artisan make:command ModularCrudCommand
 ```
 
 ```sh
-``php artisan make:command ModularCrudRollbackCommand
+php artisan make:command ModularCrudRollbackCommand
 ```
 
 ```sh
-``php artisan modular:crud Post
+php artisan modular:crud Post
 ```
 
 ```sh
-``php artisan modular:crud-rollback Post
+php artisan modular:crud-rollback Post
 ```
 
 ## What Does This CRUD Generator Create?
