@@ -1,8 +1,9 @@
 # modular-laravel-commands
+
 ``php artisan make:command ModularCrudCommand
 
 ``php artisan make:command ModularCrudRollbackCommand
-then
+
 ``php artisan modular:crud Post
 
 ``php artisan modular:crud-rollback Post
